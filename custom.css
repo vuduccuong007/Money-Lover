@@ -1,0 +1,289 @@
+.application--wrap{
+  font-family: Roboto,sans-serif;
+  line-height: 1.5;
+}
+.logo-wrap{
+  height: 230px;
+  width: 100%;
+  background-color: #31720f;
+  text-align: center;
+}
+.logo{
+  width: 200px;
+  height: 200px;
+  margin-top: 20px;
+}
+.logo:hover{
+  cursor: pointer;
+}
+.container{
+  height: 700px;
+  background-image: linear-gradient(#31720f 15%, #eee 0%);
+  display: flex;
+}
+.form--wrap{
+  height: 450px;
+  width: 33%;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 34px 40px 40px;
+  margin: 0 auto;
+}
+.form-title-text{
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 34px;
+}
+.wrap-form-body{
+  display: flex;
+}
+.social{
+  max-width: 280px;
+  overflow: hidden;
+  width: 100%;
+  margin-right: 14px;
+}
+.social-description{
+  margin-bottom: 18px;
+  color: #707070;
+}
+/* .social-items{
+
+} */
+.social-item{
+  margin-bottom: 12px;
+  background-color: #fff;
+  padding: 8px 16px;
+  width: 100%;
+  border-radius: 10px;
+}
+.v-btn__content{
+  display: flex;
+}
+.social-item-name{
+  font-weight: 550;
+  font-size: 16px;
+  margin: auto 0 auto 14px;
+}
+.social-item-google{
+  margin-bottom: 12px;
+  background-color: #fff;
+  padding: 8px 16px;
+  width: 100%;
+  border-radius: 10px;
+  color: #fa5d5d;
+  border: 2px solid #fa5d5d;
+  outline: none;
+}
+.social-item-google:hover{
+  cursor: pointer;
+  background-color: #fa5d5d;
+  color: #fff;
+}
+.fa-google-plus-square{
+  font-size: 24px;
+  height: 24px;
+  width: 24px;
+}
+.social-item-facebook{
+  margin-bottom: 12px;
+  background-color: #fff;
+  padding: 8px 16px;
+  width: 100%;
+  border-radius: 10px;
+  color: #1877f2;
+  border: 2px solid #1877f2;
+  outline: none;
+}
+.social-item-facebook:hover{
+  cursor: pointer;
+  background-color: #1877f2;
+  color: #fff;
+}
+.fa-facebook-square{
+  font-size: 24px;
+  height: 24px;
+  width: 24px;
+}
+.social-item-apple{
+  margin-bottom: 12px;
+  background-color: #fff;
+  padding: 8px 16px;
+  width: 100%;
+  border-radius: 10px;
+  border: 2px solid black;
+  outline: none;
+}
+.social-item-apple:hover{
+  cursor: pointer;
+  background-color: black;
+  color: #fff;
+}
+.fa-apple{
+  font-size: 24px;
+  height: 24px;
+  width: 24px;
+  padding-bottom: 3px;
+}
+.ml-network{
+  width: 100%;
+}
+.using-ml-account-text{
+  margin-bottom: 18px;
+  color: #707070;
+  margin-left: 16px;
+}
+.form-ml{
+  width: calc(100% - 16px);
+  padding-left: 16px;
+  border-left: 2px solid #e0e0e0;
+}
+.v-input-email{
+  margin-bottom: 24px;
+  width: 100%;
+}
+.v-input-password{
+  width: 100%;
+  margin-bottom: 12px;
+}
+.input{
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  border: 2px solid #f5f5f5;
+  width: calc(100% - 30px);
+  padding: 12px;
+  font-size: 16px;
+  outline: none;
+}
+.input:hover{
+  border: 2px solid #31720f;
+}
+.v-input__control{
+  width: 100%;
+  position: relative;
+}
+.validate-email{
+  font-size: 12px;
+  color: #fa5d5d;
+}
+.validate-password{
+  font-size: 12px;
+  color: #fa5d5d;
+}
+.fa-eye-slash{
+  position: absolute;
+  top: 15px;
+  right: 0;
+  margin-right: 10px;
+}
+.fa-eye-slash:hover{
+  cursor: pointer;
+}
+.fa-eye{
+  position: absolute;
+  top: 15px;
+  right: 0;
+  margin-right: 10px;
+}
+.fa-eye:hover{
+  cursor: pointer;
+}
+.forgot-password{
+  position: relative;
+  height: 24px;
+  width: 100%;
+  margin-bottom: 14px;
+}
+.forgot-password-text{
+  position: absolute;
+  right: 0;
+  color: #00bc2a;
+  font-weight: 500;
+}
+.forgot-password-text:hover{
+  cursor: pointer;
+  color: #31720f;
+}
+.btn-submit-ml{
+  width: 100%;
+  background-color: #00bc2a;
+  border: 2px solid #00bc2a;
+  border-radius: 10px;
+  height: 34px;
+  margin-bottom: 14px;
+  outline: none;
+  display: flex;
+}
+.btn-submit-ml:hover{
+  cursor: pointer;
+  background-color: #31720f;
+  border: 2px solid #31720f;
+}
+.v-btn-submit__content{
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+  margin: auto;
+}
+.suggestion-login{
+  text-align: center;
+}
+.suggestion-register{
+  text-align: center;
+}
+.suggestion-action{
+  color: #00bc2a;
+  text-decoration-line: underline;
+}
+.suggestion-action:hover{
+  cursor: pointer;
+  color: #31720f;
+}
+.content{
+  height: 380px;
+  width: 20%;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 34px 40px;
+  margin: 0 auto;
+}
+.form-forgot-title-text{
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.description{
+  text-align: center;
+  font-size: 14px;
+  margin-bottom: 24px;
+}
+.v-input-email-forgot{
+  margin: 20px 20px 0 20px;
+}
+.validate-email-forgot{
+  font-size: 12px;
+  color: #fa5d5d;
+}
+.btn-submit-ml-forgot{
+  width: calc(100% - 40px);
+  background-color: #00bc2a;
+  border: 2px solid #00bc2a;
+  border-radius: 10px;
+  height: 34px;
+  margin: 20px 20px;
+  outline: none;
+  display: flex;
+}
+.btn-submit-ml-forgot:hover{
+  cursor: pointer;
+  background-color: #31720f;
+  border: 2px solid #31720f;
+}
+.v-btn-submit-forgot__content{
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+  margin: auto;
+}
