@@ -1,3 +1,4 @@
+/* Login */
 .application--wrap{
   font-family: Roboto,sans-serif;
   line-height: 1.5;
@@ -16,7 +17,7 @@
 .logo:hover{
   cursor: pointer;
 }
-.container{
+.container--form{
   height: 700px;
   background-image: linear-gradient(#31720f 15%, #eee 0%);
   display: flex;
@@ -286,4 +287,32 @@
   font-weight: 500;
   color: #fff;
   margin: auto;
+}
+
+
+/* Interface */
+.application--wrap{
+  font-family: roboto, sans-serif;
+  font-weight: 400;
+  height: 930px;
+  background-color: #ccc;
+}
+.tabs-fixed{
+  width: 80px;
+  height: 100%;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 3px 7px 0 rgba(0,0,0,.27)
+}
+.item{
+  height: 64px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding: 13px 0;
+  cursor: pointer;
+  color: #ccc;
+}
+.text{
+  line-height: 16px;
 }
